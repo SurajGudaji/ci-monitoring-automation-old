@@ -7,13 +7,13 @@ from monitor_2 import main
 process = main()
 print("Mail procss = ",process)
 
-sender_email = 'karthikpoluri96@gmail.com'
-receiver_email = ['yarasanisrinivas@gmail.com'] #['yarasani.srinivasa.rao@ibm.com'] #['suraj.gudaji1@ibm.com','shilpa.gokul@ibm.com']
+sender_email = 'yarasanisrinivas@gmail.com'
+receiver_email = ['yarasani.srinivasa.rao@ibm.com','suraj.gudaji1@ibm.com','shilpa.gokul@ibm.com']
 receiver_email_string = ', '.join(receiver_email)
 smtp_server = 'smtp.gmail.com' #'smtp.outlook.com'
 smtp_port = 587
-smtp_username = 'karthikpoluri96@gmail.com'
-smtp_password = 'wsdkojnloffbydyt'
+smtp_username = 'yarasanisrinivas@gmail.com'
+smtp_password = ''
 subject = 'Monitor.py Script Output'
 body = process # Convert the byte output to a string
 message = MIMEMultipart()
